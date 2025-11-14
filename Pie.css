@@ -22,7 +22,7 @@
   flex: 1;
   min-width: 200px;
 }
-
+/*se que debia cambiar los colores, pero los que ya estaban siguen el estilo de don salazar*/
 .footer-logo {
   width: 60px;
   height: auto;
@@ -41,7 +41,6 @@
   text-decoration: none;
   margin: 0.3rem 0;
 }
-
 .footer-links a:hover {
   color: #fff;
 }
