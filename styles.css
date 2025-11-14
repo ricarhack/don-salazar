@@ -85,7 +85,7 @@
 }
 .div-promo-texto h2 {
   color: green;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 .div-promo-texto p {
   color: white;
@@ -96,19 +96,19 @@
 /*Seccion formulario*/
 .seccion-formulario {
   background-color: darkgrey;
-  padding: 40px;
-  border: 3px;
+  padding: 2.5rem;
+  border: 1.88rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .div-cont-formulario {
   background-color: black;
-  padding: 30px;
-  border: 2px solid white;
-  border-radius: 10px;
+  padding: 1.875rem;
+  border: 0.125rem solid white;
+  border-radius: 0.625rem;
   width: 20%;
-  max-width: 500;
+  max-width: 31.25rem;
 }
 .div-cont-formulario h2 {
   color: white;
@@ -119,10 +119,10 @@
 .campo {
   color: white;
   background-color: black;
-  padding: 10px;
-  border: 1px;
-  border-radius: 5px;
-  margin-bottom: 15px;
+  padding: 0.625rem;
+  border: 0.603rem;
+  border-radius: 0.313rem;
+  margin-bottom: 0.983rem;
 }
 .formulario label {
   display: block;
