@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>don-salazar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Pie.css" />
+    <!--esta huevada de arriba ^ es importante de recordar-->
+  </head>
+  <body>
+    <!--MENU-->
+    <nav class="topheader">
+      <a href="" class="logo"> 
+        <img height="60" width="60" src="images/images.png" alt=""/>
+      <ul class="Menu-Horizontal">
+        <!--El "a"es el nombre de la etiqueta-->
+        <li><a href="">Inicio</a></li>
+        <!--Sublista-->
+        <li>
+          <a href="">Productos</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Cafes</a></li>
+            <li><a href="">Cafeteras</a></li>
+            <li><a href="">Cafe molido</a></li>
+          </ul>
+        </li>
+        <li><a href="">Promociones</a></li>
+        <li><a href="">Contactanos</a></li>
+        <li><a href="">Ayuda</a></li>
+      </ul>
+    </nav>
+    <!--los h nada que ver-->
+    <!--
+    <h1>   </h1>
+    <h1>This is a simple HTML + CSS template! - test</h1>
+    <h1>testing</h1>
+    <h2>this is aqua</h2>
+    <h3>testing</h3>
+    <h4>testing</h4>
+    <h5>the smallest size is below me</h5>
+    <h6>you say average!</h6>-->
+    <!-- clase 2-->
+<!--seccion cafe-->
+<section class="seccion-cafe">
+  <div class ="div-gral-cafe">
+    <div class ="div-cafe-texto">
+    <h2>cafe </h2>
+
+    <p>la cafeteria don salazar esta entre 
+      las mejores 100 cafeterias de sur-america</p>
+      <p> Cafe peruano de alta calidad</p>
+    </div>
+    <div class="div-cafe-img">
+    <img height= "300"width="400" src="images/cafe.jpg" alt=""/>
+    </div>
+  </div>
+</section>
+<!--secccion promociones-->
+<section class="seccion-promo">
+  <div class ="div-gral-promo">
+    <div class ="div-promo-texto">
+      <h2>SECCION PROMOCIONES</h2>
+      <p>En don salazar, somos los primeros en sacar el cafe turron. nunca antes visto, pero un sabor sin igual</p>
+    </div>
+    <div class ="div-promo-video"></div>
+    <iframe width="400" 
+    height="300" 
+    src="https://www.youtube.com/embed/ygGrTkSARqg" 
+    title="Don Salazar - 500 Start Up&#39;s SOMOS LUCHA" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen></iframe>
+  </div>
+</section>
+<!--seccion test-->
+<section class="seccion-formulario">
+  <div class="div-cont-formulario">
+    <h2>registro</h2>
+    <p>para poder registrarse </p>
+      <form class="formulario-contactanos">
+        <!--input/label-->
+        <div class="campo">
+          <label for="nombre">Nombres completos</label>
+          <input type="text" id="nombre" name="nambre" placeholder="Ingrese sus nombres"></input>
+        </div>
+        <!--lista despegable-->
+        <div class="campo">
+          <label for ="nombre">Pais:</label>
+          <select id="pais"name="pais">
+            <option value="">seleccione un pais</option>
+            <option value="peru">Peru</option>
+            <option value="argentina">Argentina</option>
+            <option value="brazil">Brazil</option>
+          </select>
+        </div>
+        <!--checkbox-->
+        <div class="campo">
+          <label>Intereses:</label>
+            <ul class="lista-checkbox">
+              <li><label><input type="checkbox" name="intereses"value="a">cafe</label></li>
+              <li><label><input type="checkbox" name="intereses"value="b">productos</label></li>
+              <li><label><input type="checkbox" name="intereses"value="c">cafeteras</label></li>
+              <li><label><input type="checkbox" name="intereses"value="d">granos</label></li>
+            </ul>
+        </div>
+        <!--radio-->
+        <div class="campo">
+          <label>Sexo:</label>
+            <ul class="lista-radio">
+              <li><label><input type="radio" name="sexo"value="m">Masculino</label></li>
+              <li><label><input type="radio" name="sexo"value="f">Femenino</label></li>
+            </ul>
+        </div>        
+        <div class="formulario button">
+         <button type="submit">envia pe</button>
+        </div>
+    </form>
+  </div>
+</section>
+  <!-- PIE DE PAGINA -->
+  <!--no se que otro nombre ponerle profe-->
+  <section id="footer">
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo y nombre de sitio -->
+        <div class="footer-brand">
+          <img
+            src="images/images.png"
+            alt="Logo"
+            class="footer-logo"
+          />
+          <p>SENATI</p>
+          <small>© 2025 Todos los derechos reservados</small>
+        </div>
+
+        <!-- Enlaces legales -->
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <a href="/documentos/privacidad.pdf"
+            >Política de Privacidad</a>
+          <!-- Dentro de href llama a un documento pdf con la poltica-->
+          <a href="/documentos/terminosYcondiciones.pdf">Términos y Condiciones</a>
+          <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+          <a href="/documentos/proteccion datos.pdf">Protección de Datos</a>
+        </div>
+
+        <!-- Redes sociales con íconos personalizados -->
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <a href="https://www.facebook.com/donsalazarcoffee"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+              alt="Facebook"
+              class="social-icon"
+          /></a>
+          <a href="https://www.instagram.com/donsalazar_coffee"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+              alt="Instagram"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+              alt="LinkedIn"
+              class="social-icon"
+          /></a>
+          <a href="#"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+              alt="Twitter"
+              class="social-icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </section>
+  </body>
+</html>
