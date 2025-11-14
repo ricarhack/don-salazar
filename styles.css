@@ -127,7 +127,7 @@
 .formulario select {
   width: 100px;
   padding: 6px;
-  border: 1px solid purple;
+  border: 1px solid white;
   border-radius: 5px;
   box-sizing: border-box;
   margin: 10px;
@@ -138,7 +138,7 @@
   padding: 10px;
   margin: 10px;
   border: 1px;
-  background-color: salmon;
+  background-color: gray;
   margin-bottom: 8px;
 }
 .formulario button {
