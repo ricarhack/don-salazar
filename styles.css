@@ -3,11 +3,13 @@
   position: fixed;
   background-color: white;
   width: 100%;
-  height: 20px;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 20px;
+
+  z-index: 1000;
+  top: 0;
 }
 
 .Menu-Horizontal {
@@ -29,18 +31,23 @@
   position: absolute;
   list-style: none;
   width: 150px;
+  background-color: white;
+  border: 1px solid red;
+  padding-left: 0px;
+  top: 100%;
 }
-
 .Menu-Horizontal li a:hover {
   color: red;
+  border: 1px solid black;
 }
 
 .Menu-Horizontal li:hover .Menu-Vertical {
   display: block;
+  border: 1px solid red;
 }
 /*Seccion cafe*/
 .seccion-cafe {
-  padding: 50px 20px;
+  padding: 100px 20px;
   background-color: black;
 }
 .div-gral-cafe {

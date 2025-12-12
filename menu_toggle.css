@@ -3,19 +3,17 @@
   display: none; /* Oculto por defecto */
   font-size: 2rem; /* Tamaño del ícono hamburguesa */
   background: none; /* Sin fondo */
+  border: none; /* Sin bordes */
   cursor: pointer; /* Manito al pasar el mouse */
-  margin-right: 3rem; /* Espacio entre el borde derecho */
-  color: white;
-  position: relative;
-  background-color: black;
-  border-color: white;
+  margin-right: 1rem; /* Espacio entre el borde derecho */
+  margin-left: auto; /* Solo agrega esto */
 }
 
 /* RESPONSIVE: MÓVILES */
 @media (max-width: 768px) {
   .menu-toggle {
     display: block; /* Mostrar botón hamburguesa en móviles */
-    color: white;
+    color: black;
   }
 
   .Menu-Horizontal {
@@ -25,6 +23,7 @@
     background-color: white;
     position: absolute;
     top: 5rem; /* Debajo del menú fijo */
+    left: 0;
   }
 
   .Menu-Horizontal.active {
